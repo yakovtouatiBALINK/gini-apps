@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AA49912AE692810026D6BF /* giniAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49902AE692810026D6BF /* giniAppsApp.swift */; };
+		01AA49932AE692810026D6BF /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49922AE692810026D6BF /* HomePageView.swift */; };
+		01AA49952AE692830026D6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA49942AE692830026D6BF /* Assets.xcassets */; };
+		01AA49982AE692830026D6BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA49972AE692830026D6BF /* Preview Assets.xcassets */; };
+		01AA49A22AE692840026D6BF /* giniAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49A12AE692840026D6BF /* giniAppsTests.swift */; };
+		01AA49AC2AE692840026D6BF /* giniAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49AB2AE692840026D6BF /* giniAppsUITests.swift */; };
+		01AA49AE2AE692840026D6BF /* giniAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49AD2AE692840026D6BF /* giniAppsUITestsLaunchTests.swift */; };
+		01AA49BE2AE694570026D6BF /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49BD2AE694570026D6BF /* PeopleViewModel.swift */; };
+		01AA49C02AE695500026D6BF /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA49BF2AE695500026D6BF /* PersonModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AA499E2AE692840026D6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AA49852AE692810026D6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AA498C2AE692810026D6BF;
+			remoteInfo = giniApps;
+		};
+		01AA49A82AE692840026D6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AA49852AE692810026D6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AA498C2AE692810026D6BF;
+			remoteInfo = giniApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AA498D2AE692810026D6BF /* giniApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giniApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA49902AE692810026D6BF /* giniAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giniAppsApp.swift; sourceTree = "<group>"; };
+		01AA49922AE692810026D6BF /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		01AA49942AE692830026D6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AA49972AE692830026D6BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01AA499D2AE692840026D6BF /* giniAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giniAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA49A12AE692840026D6BF /* giniAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giniAppsTests.swift; sourceTree = "<group>"; };
+		01AA49A72AE692840026D6BF /* giniAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giniAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA49AB2AE692840026D6BF /* giniAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giniAppsUITests.swift; sourceTree = "<group>"; };
+		01AA49AD2AE692840026D6BF /* giniAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giniAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01AA49BD2AE694570026D6BF /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		01AA49BF2AE695500026D6BF /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AA498A2AE692810026D6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA499A2AE692840026D6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA49A42AE692840026D6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AA49842AE692810026D6BF = {
+			isa = PBXGroup;
+			children = (
+				01AA498F2AE692810026D6BF /* giniApps */,
+				01AA49A02AE692840026D6BF /* giniAppsTests */,
+				01AA49AA2AE692840026D6BF /* giniAppsUITests */,
+				01AA498E2AE692810026D6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AA498E2AE692810026D6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AA498D2AE692810026D6BF /* giniApps.app */,
+				01AA499D2AE692840026D6BF /* giniAppsTests.xctest */,
+				01AA49A72AE692840026D6BF /* giniAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AA498F2AE692810026D6BF /* giniApps */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49BC2AE692F30026D6BF /* ViewModel */,
+				01AA49BB2AE692DE0026D6BF /* Model */,
+				01AA49BA2AE692C00026D6BF /* Views */,
+				01AA49902AE692810026D6BF /* giniAppsApp.swift */,
+				01AA49942AE692830026D6BF /* Assets.xcassets */,
+				01AA49962AE692830026D6BF /* Preview Content */,
+			);
+			path = giniApps;
+			sourceTree = "<group>";
+		};
+		01AA49962AE692830026D6BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49972AE692830026D6BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01AA49A02AE692840026D6BF /* giniAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49A12AE692840026D6BF /* giniAppsTests.swift */,
+			);
+			path = giniAppsTests;
+			sourceTree = "<group>";
+		};
+		01AA49AA2AE692840026D6BF /* giniAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49AB2AE692840026D6BF /* giniAppsUITests.swift */,
+				01AA49AD2AE692840026D6BF /* giniAppsUITestsLaunchTests.swift */,
+			);
+			path = giniAppsUITests;
+			sourceTree = "<group>";
+		};
+		01AA49BA2AE692C00026D6BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49922AE692810026D6BF /* HomePageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		01AA49BB2AE692DE0026D6BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49BF2AE695500026D6BF /* PersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		01AA49BC2AE692F30026D6BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				01AA49BD2AE694570026D6BF /* PeopleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AA498C2AE692810026D6BF /* giniApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA49B12AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniApps" */;
+			buildPhases = (
+				01AA49892AE692810026D6BF /* Sources */,
+				01AA498A2AE692810026D6BF /* Frameworks */,
+				01AA498B2AE692810026D6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giniApps;
+			productName = giniApps;
+			productReference = 01AA498D2AE692810026D6BF /* giniApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AA499C2AE692840026D6BF /* giniAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA49B42AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniAppsTests" */;
+			buildPhases = (
+				01AA49992AE692840026D6BF /* Sources */,
+				01AA499A2AE692840026D6BF /* Frameworks */,
+				01AA499B2AE692840026D6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AA499F2AE692840026D6BF /* PBXTargetDependency */,
+			);
+			name = giniAppsTests;
+			productName = giniAppsTests;
+			productReference = 01AA499D2AE692840026D6BF /* giniAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AA49A62AE692840026D6BF /* giniAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA49B72AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniAppsUITests" */;
+			buildPhases = (
+				01AA49A32AE692840026D6BF /* Sources */,
+				01AA49A42AE692840026D6BF /* Frameworks */,
+				01AA49A52AE692840026D6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AA49A92AE692840026D6BF /* PBXTargetDependency */,
+			);
+			name = giniAppsUITests;
+			productName = giniAppsUITests;
+			productReference = 01AA49A72AE692840026D6BF /* giniAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AA49852AE692810026D6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01AA498C2AE692810026D6BF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					01AA499C2AE692840026D6BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 01AA498C2AE692810026D6BF;
+					};
+					01AA49A62AE692840026D6BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 01AA498C2AE692810026D6BF;
+					};
+				};
+			};
+			buildConfigurationList = 01AA49882AE692810026D6BF /* Build configuration list for PBXProject "giniApps" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AA49842AE692810026D6BF;
+			productRefGroup = 01AA498E2AE692810026D6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AA498C2AE692810026D6BF /* giniApps */,
+				01AA499C2AE692840026D6BF /* giniAppsTests */,
+				01AA49A62AE692840026D6BF /* giniAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AA498B2AE692810026D6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA49982AE692830026D6BF /* Preview Assets.xcassets in Resources */,
+				01AA49952AE692830026D6BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA499B2AE692840026D6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA49A52AE692840026D6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AA49892AE692810026D6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA49C02AE695500026D6BF /* PersonModel.swift in Sources */,
+				01AA49932AE692810026D6BF /* HomePageView.swift in Sources */,
+				01AA49BE2AE694570026D6BF /* PeopleViewModel.swift in Sources */,
+				01AA49912AE692810026D6BF /* giniAppsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA49992AE692840026D6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA49A22AE692840026D6BF /* giniAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA49A32AE692840026D6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA49AE2AE692840026D6BF /* giniAppsUITestsLaunchTests.swift in Sources */,
+				01AA49AC2AE692840026D6BF /* giniAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AA499F2AE692840026D6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AA498C2AE692810026D6BF /* giniApps */;
+			targetProxy = 01AA499E2AE692840026D6BF /* PBXContainerItemProxy */;
+		};
+		01AA49A92AE692840026D6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AA498C2AE692810026D6BF /* giniApps */;
+			targetProxy = 01AA49A82AE692840026D6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AA49AF2AE692840026D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01AA49B02AE692840026D6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AA49B22AE692840026D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"giniApps/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniApps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01AA49B32AE692840026D6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"giniApps/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniApps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01AA49B52AE692840026D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniAppsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giniApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/giniApps";
+			};
+			name = Debug;
+		};
+		01AA49B62AE692840026D6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniAppsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giniApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/giniApps";
+			};
+			name = Release;
+		};
+		01AA49B82AE692840026D6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniAppsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giniApps;
+			};
+			name = Debug;
+		};
+		01AA49B92AE692840026D6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yacov-touati-balink.giniAppsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giniApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AA49882AE692810026D6BF /* Build configuration list for PBXProject "giniApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA49AF2AE692840026D6BF /* Debug */,
+				01AA49B02AE692840026D6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AA49B12AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA49B22AE692840026D6BF /* Debug */,
+				01AA49B32AE692840026D6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AA49B42AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA49B52AE692840026D6BF /* Debug */,
+				01AA49B62AE692840026D6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AA49B72AE692840026D6BF /* Build configuration list for PBXNativeTarget "giniAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA49B82AE692840026D6BF /* Debug */,
+				01AA49B92AE692840026D6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01AA49852AE692810026D6BF /* Project object */;
+}
